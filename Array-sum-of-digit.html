@@ -1,0 +1,18 @@
+<script>
+    var arr = [12,14,18,91,200]
+    for(var i = 0; i < arr.length; i++)
+{
+    var sum = 0
+    var num = arr[i]
+    while(num > 0)
+{
+    rem = num % 10
+    sum = sum + rem
+    num = parseInt(num / 10)
+    document.write(" sum of digit <br>" + sum)
+}
+    
+}
+    
+
+</script>

@@ -1,0 +1,23 @@
+<script>
+    var arr = [6,158,12,36,122]
+    for(var i = 0; i < arr.length; i++)
+{
+    var num = arr[i]
+    var sum = 0
+    for(var j = 0; j < num; j++)
+{
+    if(num % j == 0)
+{
+    sum = sum + j
+}
+}
+    if(sum == num)
+{
+    document.write(num+" Perfect Number<br>")
+}
+    else
+{
+    document.write(num+ " Not a Perfect Number<br>")
+}
+}
+</script>
